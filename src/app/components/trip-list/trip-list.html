@@ -1,0 +1,4 @@
+<h1>Liste des voyages</h1>
+<h5>nombre de voyages disponible:{{nbVd()}} voyages</h5>
+@for( v of voyages(); track $index){
+<app-trip-item [tab]="voyages()",[i]="$index"></app-trip-item>}
