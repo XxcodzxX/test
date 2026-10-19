@@ -1,0 +1,6 @@
+  voyages = [
+    new Trip("Bali", "photos/bali.jpg", 7800, 11, 12, true),
+    new Trip("Turquie", "photos/turquie.jpg", 4300, 7, 8, false),
+    new Trip("Egypte", "photos/egypte.jpg", 4100, 14, 6, true),
+    new Trip("Algérie", "photos/algerie.jpg", 850, 9, 11, false)
+  ]
